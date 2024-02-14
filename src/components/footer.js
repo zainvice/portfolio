@@ -27,11 +27,11 @@ const Footer = (props) => {
             <div className="flex flex-col font-bold my-5 text-center lg:text-left lg:mr-5 md:text-left md:mr-5">
               <span className='text-[#02B5DC]'>Social <span className='text-black'>Links</span></span> 
               <div className='flex w-full mt-2 mb-6 justify-center text-center '>
-                <a className=' w-[30px] border-2 border-[#02B5DC] hover:animate-spin rounded-full text-[#02B5DC] mx-2 hover:bg-[#02B5DC] hover:text-white duration-300' href="https://www.linkedin.com/in/zainvice/" target='_blank'><i class="fa-brands fa-linkedin"></i></a>
-                <a className=' w-[30px] border-2 border-[#02B5DC] hover:animate-spin hover:bg-[#02B5DC] hover:text-white duration-300 rounded-full  content- text-[#02B5DC] mx-2' href="https://www.facebook.com/zainvice" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                <a  className=' w-[30px] border-2 border-[#02B5DC] hover:animate-spin rounded-full text-[#02B5DC] mx-2 hover:bg-[#02B5DC] hover:text-white duration-300' href="https://www.github.com/zainvice" target="_blank"><i class="fab fa-github"></i></a>
-                <a className=' w-[30px] border-2 border-[#02B5DC] hover:animate-spin rounded-full text-[#02B5DC] mx-2 hover:bg-[#02B5DC] hover:text-white duration-300'  href="https://www.twitter.com/zainvice" target="_blank"><i class="fab fa-twitter"></i></a>
-                <a  className=' w-[30px] border-2 border-[#02B5DC] hover:animate-spin rounded-full text-[#02B5DC] mx-2 hover:bg-[#02B5DC] hover:text-white duration-300' href="https://www.instagram.com/zainvice" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a className=' w-[30px] border-2 border-[#02B5DC] hover:animate-spin rounded-full text-[#02B5DC] mx-2 hover:bg-[#02B5DC] hover:text-white duration-300' href="https://www.linkedin.com/in/zainvice/" target='_blank' rel="noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+                <a className=' w-[30px] border-2 border-[#02B5DC] hover:animate-spin hover:bg-[#02B5DC] hover:text-white duration-300 rounded-full  content- text-[#02B5DC] mx-2' href="https://www.facebook.com/zainvice" target="_blank" rel="noreferrer"><i class="fab fa-facebook-f"></i></a>
+                <a  className=' w-[30px] border-2 border-[#02B5DC] hover:animate-spin rounded-full text-[#02B5DC] mx-2 hover:bg-[#02B5DC] hover:text-white duration-300' href="https://www.github.com/zainvice" target="_blank" rel="noreferrer"><i class="fab fa-github"></i></a>
+                <a className=' w-[30px] border-2 border-[#02B5DC] hover:animate-spin rounded-full text-[#02B5DC] mx-2 hover:bg-[#02B5DC] hover:text-white duration-300'  href="https://www.twitter.com/zainvice" target="_blank" rel="noreferrer"><i class="fab fa-twitter"></i></a>
+                <a  className=' w-[30px] border-2 border-[#02B5DC] hover:animate-spin rounded-full text-[#02B5DC] mx-2 hover:bg-[#02B5DC] hover:text-white duration-300' href="https://www.instagram.com/zainvice" target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i></a>
                 
               </div>
             </div>

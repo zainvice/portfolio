@@ -9,8 +9,8 @@ const Header = (props) => {
             </div>
             <div className='text-[14px] mt-2 lg:block hidden md:block'>
                 <a href='/' className='m-5 cursor-pointer hover:text-[#02B5DC] ease-in-out duration-300'>Home</a>
-                <a className='m-5 cursor-pointer hover:text-[#02B5DC] ease-in-out duration-300'>Services</a>
-                <a className='m-5 cursor-pointer hover:text-[#02B5DC] ease-in-out duration-300'>Portfolio</a>
+                <a href="/about" className='m-5 cursor-pointer hover:text-[#02B5DC] ease-in-out duration-300'>Services</a>
+                <a href="/about" className='m-5 cursor-pointer hover:text-[#02B5DC] ease-in-out duration-300'>Portfolio</a>
                 <a href="/about" className='m-5 cursor-pointer hover:text-[#02B5DC] ease-in-out duration-300'>About Me</a>
             </div>
             <div class="flex flex-col w-5 h-5 mt-4 items-end">
