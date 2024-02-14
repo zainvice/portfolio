@@ -37,10 +37,20 @@ export const content = [
           from: { width: 0 },
           to: { width: '100%' },
         },
+        typingh: {
+          from: { height: 0 },
+          to: { height: '100%' },
+        },
+        'blink-caret': {
+          'from, to': { borderColor: 'transparent' },
+          '50%': { borderColor: 'orange' },
+        },
       },
       animation: {
         wiggle: 'wiggle 1s ease-in-out infinite',
         typing: 'typing 2s steps(40, end) infinite',
+        typingh: 'typingh 4s steps(40, end)',
+        'blink-caret': 'blink-caret .75s step-end infinite',
       },
       
     },

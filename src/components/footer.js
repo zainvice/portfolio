@@ -6,18 +6,18 @@ const Footer = (props) => {
             <div className="flex flex-col my-5 text-[12px] content-center items-center lg:ml-14 md:ml-14">
                 <span className="font-bold text-[14px] ">Browse<span className='text-[#02B5DC]'> Site</span></span>               
                 <div className='flex lg:flex-col md:flex-col'>
-                    <a className='mx-2' href='/'>Home</a>
-                    <a className='mx-2' href='/services'>Services</a>
-                    <a className='mx-2' href='/portfolio'>Portfolio</a>
-                    <a className='mx-2' href='/about'>About Me</a>
+                    <a className='mx-2 hover:font-bold hover:text-[#02B5DC] duration-300' href='/'>Home</a>
+                    <a className='mx-2 hover:font-bold hover:text-[#02B5DC] duration-300' href='/services'>Services</a>
+                    <a className='mx-2 hover:font-bold hover:text-[#02B5DC] duration-300' href='/portfolio'>Portfolio</a>
+                    <a className='mx-2 hover:font-bold hover:text-[#02B5DC] duration-300' href='/about'>About Me</a>
                 </div>
                
               </div>
             <div className="text-center text-sm my-5 lg:ml-4 md:ml-4">
               <span className='font-bold'>Subscribe to my <span className='text-[#02B5DC]'>Newsletter</span> </span>
               <form className='mt-5 mx-2 flex relative '>
-                  <input className="border-2 p-2 border-[#02B5DC] rounded-full  flex-grow" type="email" placeholder="Enter Email"/>
-                  <button className="absolute right-0 top-0 bg-[#02B5DC] border-2 border-[#02B5DC] p-2 text-white rounded-full hover:bg-white hover:text-[#02B5DC] duration-300" type="submit">Submit</button>
+                  <input className="border-2 p-2 border-[#02B5DC] rounded-full flex-grow " type="email" placeholder="Enter Email"/>
+                  <button className="absolute hover:animate-wiggle hover:font-bold right-0 top-0 bg-[#02B5DC] border-2 border-[#02B5DC] p-2 text-white rounded-full hover:bg-white hover:text-[#02B5DC] duration-300" type="submit">Submit</button>
               </form>
               <div className='font-bold text-[12px] text-gray-500 my-8'><span ><a  href="https://www.upwork.com/freelancers/~01f57154b8155bc912 "
                 target="_blank" rel='noreferrer'>

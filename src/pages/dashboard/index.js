@@ -8,7 +8,7 @@ const Dashboard = () => {
         <>
         <AnimatedCursor 
           color="2, 181, 220"
-          
+          trail={10}
         />
          <Header/>
          <div className="flex flex-col lg:flex-row justify-between mx-10 mt-10 items-center">
@@ -32,7 +32,9 @@ const Dashboard = () => {
                 <a href="services.html"><div className="hover:bg-[#02B5DC] hover:text-white duration-300 hover:animate-bounce lg:mx-4 md:mx-2 my-4 w-[220px] font-bold text-[#02B5DC] rounded-[20px] h-[120px] border-2 border-[#02B5DC] flex flex-col text-center items-center content-center"><i className="fa-brands fa-node text-[50px] mt-5 hover:animate-ping"></i><p className="mt-2">Full Stack Development</p></div></a>
             </div>
          </div>
-         
+         <div className="fixed bottom-0 right-5 bg-[#02B5DC] text-white font-bold p-3 rounded-t-[10px]">
+            <p className='animate-wiggle'>Still a work in progress!</p>
+         </div>
          <Footer/>
         </>
         
