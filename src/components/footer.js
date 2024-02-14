@@ -4,7 +4,7 @@ const Footer = (props) => {
     return (
         <div className='flex flex-col lg:flex-row md:flex-row justify-between bg-[#F9F9F9] text-base text-center lg:text-left md:text-left'>
             <div className="flex flex-col my-5 text-[12px] content-center items-center lg:ml-14 md:ml-14">
-                <span className="font-bold text-[14px] ">Browse<a className='text-[#02B5DC]'> Site</a></span>               
+                <span className="font-bold text-[14px] ">Browse<span className='text-[#02B5DC]'> Site</span></span>               
                 <div className='flex lg:flex-col md:flex-col'>
                     <a className='mx-2' href='/'>Home</a>
                     <a className='mx-2' href='/services'>Services</a>
@@ -20,7 +20,7 @@ const Footer = (props) => {
                   <button className="absolute right-0 top-0 bg-[#02B5DC] border-2 border-[#02B5DC] p-2 text-white rounded-full hover:bg-white hover:text-[#02B5DC] duration-300" type="submit">Submit</button>
               </form>
               <div className='font-bold text-[12px] text-gray-500 my-8'><span ><a  href="https://www.upwork.com/freelancers/~01f57154b8155bc912 "
-                target="_blank" >
+                target="_blank" rel='noreferrer'>
                 Zane &copy; Copyright 2022-2024
                 </a></span></div>
             </div>
