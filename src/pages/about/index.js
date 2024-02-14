@@ -26,7 +26,7 @@ const About = (props) => {
                      <button className="mt-10 bg-[#02B5DC] animate-bounce hover:animate-none text-white p-3 text-sm rounded-[20px] border-2 border-[#02B5DC] hover:bg-white hover:text-[#02B5DC] hover:font-bold duration-300">Contact Us</button>
                 </div>
             </div>
-            <div className="fixed bottom-0 right-5 bg-[#02B5DC] text-white font-bold p-3 rounded-t-[10px]">
+            <div className="fixed bottom-0 right-5 bg-[#02B5DC] text-white font-bold p-3 rounded-t-[10px] z-50">
             <p className='animate-wiggle'>Still a work in progress!</p>
          </div>
             <Footer/>
