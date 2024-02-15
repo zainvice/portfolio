@@ -64,6 +64,10 @@ body {
 .normal{
   cursor: default;
 }
+.homer:hover i{
+   color: white;
+   
+}
 @media (min-width: 292px) and (max-width: 720px) {
   @keyframes moveSquare {
     0% {
