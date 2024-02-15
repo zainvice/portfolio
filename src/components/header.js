@@ -1,9 +1,29 @@
-import React from 'react';
-
+import React, { useState, useRef, useEffect } from 'react';
+import Sidebar from './sidebar';
 const Header = (props) => {
-    
+    const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+    const sidebarRef = useRef(null);
+
+    const toggleSidebar = () => {
+        setIsSidebarOpen(!isSidebarOpen);
+      };
+  
+    const handleClickOutside = (event) => {
+      if (sidebarRef.current && !sidebarRef.current.contains(event.target)) {
+        setIsSidebarOpen(false);
+      }
+    };
+  
+    useEffect(() => {
+      document.addEventListener('click', handleClickOutside);
+      return () => {
+        document.removeEventListener('click', handleClickOutside);
+      };
+    }, []);
+  
     return (
         <div className='flex justify-between mx-10 mt-5'>
+            <Sidebar ref={sidebarRef} onClose={toggleSidebar} isSidebarOpen={isSidebarOpen}/>
             <div>
                 <a href='/' className='text-[#02B5DC] font-bold text-2xl hover:animate-wiggle'>Zane</a>  
             </div>
@@ -13,11 +33,11 @@ const Header = (props) => {
                 <a href="/portfolio" className='m-5 cursor-pointer hover:text-[#02B5DC] ease-in-out duration-300'>Portfolio</a>
                 <a href="/about" className='m-5 cursor-pointer hover:text-[#02B5DC] ease-in-out duration-300'>About Me</a>
             </div>
-            <div class="flex flex-col w-5 h-5 mt-4 items-end">
-              <div class="bg-black h-[2px] rounded w-full relative">
+            <div className="flex flex-col homes w-5 h-5 mt-4 items-end" onClick={toggleSidebar}>
+              <div className="bg-black h-[2px] rounded w-full relative">
                
               </div>
-              <div class="bg-black h-[2px] rounded w-1/2 mt-1"></div>
+              <div className="bg-black h-[2px] rounded w-1/2 mt-1"></div>
             </div>
             
         </div>

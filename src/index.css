@@ -68,6 +68,12 @@ body {
    color: white;
    
 }
+.homes:hover div{
+   background-color: #02B5DC;
+   transition-duration: 300ms;
+   transition: ease-in-out;
+   
+}
 @media (min-width: 292px) and (max-width: 720px) {
   @keyframes moveSquare {
     0% {

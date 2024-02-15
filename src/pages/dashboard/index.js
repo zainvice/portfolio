@@ -7,7 +7,7 @@ const Dashboard = () => {
     return (
         <>
         <AnimatedCursor 
-          color="2, 181, 220"
+          color="2, 150, 190"
           trail={10}
         />
          <Header/>
