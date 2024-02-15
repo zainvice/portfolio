@@ -12,6 +12,7 @@ const Sidebar = ({ onClose, isSidebarOpen }) => {
          </div>
          <div className='my-40'>
             <p className='text-[25px] ml-10 font-bold text-white'>Zane &copy;</p>
+            <p className='text-[12px] ml-10 font-bold text-white'>A Full Stack Designer</p>
          </div>
       </div>
     );
