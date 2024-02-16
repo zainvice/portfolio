@@ -61,11 +61,22 @@ body {
 .shadow-blue-lg {
   filter: drop-shadow(0 10px 10px #02B5DC);
 }
+.shadow-blue-sm {
+  filter: drop-shadow(0 5px 5px #00809c);
+}
 .normal{
   cursor: default;
 }
 .homer:hover i{
    color: white;
+   
+}
+.homer:hover p{
+   color: white;
+   
+}
+.homer:hover img{
+   animation: none;
    
 }
 .homes:hover div{

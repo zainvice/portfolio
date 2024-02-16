@@ -23,7 +23,7 @@ const Header = (props) => {
   
     return (
         <div className='flex justify-between mx-10 mt-5'>
-            <Sidebar ref={sidebarRef} onClose={toggleSidebar} isSidebarOpen={isSidebarOpen}/>
+            <Sidebar onClose={toggleSidebar} isSidebarOpen={isSidebarOpen}/>
             <div>
                 <a href='/' className='text-[#02B5DC] font-bold text-2xl hover:animate-wiggle'>Zane &copy;</a>
                 <p className='text-[12px] font-bold text-[#02B5DC]'>A Full Stack Designer</p>  
