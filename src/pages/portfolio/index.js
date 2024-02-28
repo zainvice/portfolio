@@ -9,6 +9,7 @@ const Portfolio = (props) => {
         name: `Project ${index + 1}`,
         
     }));
+    const images = ['https://w.wallhaven.cc/full/85/wallhaven-856e71.jpg', 'https://w.wallhaven.cc/full/x6/wallhaven-x6wx2d.jpg', 'https://w.wallhaven.cc/full/vq/wallhaven-vq37l8.jpg', 'https://w.wallhaven.cc/full/qz/wallhaven-qzvg95.jpg']
     console.log(projects)
     return (
         <>
@@ -21,12 +22,12 @@ const Portfolio = (props) => {
                     <p className='home text-[40px] animate-pulse'>projects</p>
                     <div className='my-10 border-2 rounded-[30px] border-[#02E5DC]'>
                         <p className='home text-[30px] animate-bounce my-5'>Front-End <span className='text-[#02B5DC]'>Showcase</span></p>
-                        <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4'>
+                        <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-1 xl:grid-cols-1 gap-4'>
                         {projects.map(value=>(
 
                             <>
                             {value?.Array}
-                            <ProjectCard imageUrl={'https://w.wallhaven.cc/full/l8/wallhaven-l8v3ey.png'} heading={value.name} description={'some description'}/>
+                            <ProjectCard imageUrl={'https://w.wallhaven.cc/full/l8/wallhaven-l8v3ey.png'} heading={value.name} description={'some description'} images={images}/>
                             </>
                         ))}
                         {/*  <p className='home text-[#02B5DC]'>Hey! no peeking <i class="fa-regular fa-face-smile-wink"></i></p> */}

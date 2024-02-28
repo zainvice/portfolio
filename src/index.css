@@ -75,6 +75,10 @@ body {
    color: white;
    
 }
+.homer:hover i{
+   color: #02B5DC;
+   
+}
 .homer:hover img{
    animation: none;
    
