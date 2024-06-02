@@ -9,7 +9,7 @@ const Portfolio = (props) => {
         name: `Project ${index + 1}`,
         
     }));
-    const images = ['https://w.wallhaven.cc/full/85/wallhaven-856e71.jpg', 'https://w.wallhaven.cc/full/x6/wallhaven-x6wx2d.jpg', 'https://w.wallhaven.cc/full/vq/wallhaven-vq37l8.jpg', 'https://w.wallhaven.cc/full/qz/wallhaven-qzvg95.jpg']
+    const images = ['', '', '', '']
     console.log(projects)
     return (
         <>
@@ -27,7 +27,7 @@ const Portfolio = (props) => {
 
                             <>
                             {value?.Array}
-                            <ProjectCard imageUrl={'https://w.wallhaven.cc/full/l8/wallhaven-l8v3ey.png'} heading={value.name} description={'some description'} images={images}/>
+                            <ProjectCard imageUrl={''} heading={value.name} description={'some description'} images={images}/>
                             </>
                         ))}
                         {/*  <p className='home text-[#02B5DC]'>Hey! no peeking <i class="fa-regular fa-face-smile-wink"></i></p> */}
@@ -40,7 +40,7 @@ const Portfolio = (props) => {
 
                             <>
                             {value?.Array}
-                            <ProjectCard imageUrl={'https://w.wallhaven.cc/full/l8/wallhaven-l8v3ey.png'} heading={value.name} description={'some description'}/>
+                            <ProjectCard imageUrl={''} heading={value.name} description={'some description'}/>
                             </>
                         ))}
                         {/*  <p className='home text-[#02B5DC]'>Hey! no peeking <i class="fa-regular fa-face-smile-wink"></i></p> */}
@@ -53,7 +53,7 @@ const Portfolio = (props) => {
 
                             <>
                             {value?.Array}
-                            <ProjectCard imageUrl={'https://w.wallhaven.cc/full/l8/wallhaven-l8v3ey.png'} heading={value.name} description={'some description'}/>
+                            <ProjectCard imageUrl={''} heading={value.name} description={'some description'}/>
                             </>
                         ))}
                         {/*  <p className='home text-[#02B5DC]'>Hey! no peeking <i class="fa-regular fa-face-smile-wink"></i></p> */}
@@ -67,7 +67,7 @@ const Portfolio = (props) => {
 
                             <>
                             {value?.Array}
-                            <ProjectCard imageUrl={'https://w.wallhaven.cc/full/l8/wallhaven-l8v3ey.png'} heading={value.name} description={'some description'}/>
+                            <ProjectCard imageUrl={''} heading={value.name} description={'some description'}/>
                             </>
                         ))}
                         {/*  <p className='home text-[#02B5DC]'>Hey! no peeking <i class="fa-regular fa-face-smile-wink"></i></p> */}
