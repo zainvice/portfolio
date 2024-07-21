@@ -13,6 +13,7 @@
     color: #fff;
     background: linear-gradient(90deg, #fff, #02B5DC, #fff);
     background-size: 200%;
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: shine 2s linear infinite;
@@ -24,6 +25,7 @@
     color: #fff;
     background: linear-gradient(90deg, #fff, #02B5DC, #fff);
     background-size: 200%;
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: shine 2s linear infinite;
