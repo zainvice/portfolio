@@ -1,15 +1,27 @@
 
 import Header from "../../components/header";
+import { useState } from "react";
 import AnimatedImage from "../../components/animatedImage";
 import AnimatedCursor from "react-animated-cursor";
 import Footer from "../../components/footer";
+//import Start from "../start";
+import Contact from "../../components/contact";
 const Dashboard = () => {
+
+    const [showContactForm, setShowContactForm] = useState(false);
+
+    const onConnectClick = () => {
+      console.log(showContactForm)
+      setShowContactForm(!showContactForm);
+    }  
     return (
         <>
         <AnimatedCursor 
           color="2, 150, 190"
           trail={10}
         />
+        {/* <Start/> */}
+         {showContactForm && <Contact onClose={onConnectClick}/>}
          <Header/>
          <div className="flex flex-col lg:flex-row justify-between mx-10 mt-10 items-center">
            
@@ -18,7 +30,11 @@ const Dashboard = () => {
               <p className="home text-[60px]"><span className="text-[#02B5DC]">Zane</span> is here to be</p>
               <p className="home text-[60px] -mt-5">your assistance</p>
               <p className="text-[#333333]">I am here ready to help you in making creative digital products</p>
-              <button className="mt-10 bg-[#02B5DC] animate-bounce hover:animate-none text-white p-3 text-sm rounded-full border-2 border-[#02B5DC] hover:bg-white hover:text-[#02B5DC] hover:font-bold duration-300">Let's Discuss</button>
+              <button 
+                className="mt-10 bg-[#02B5DC] animate-bounce hover:animate-none text-white p-3 text-sm rounded-full border-2 border-[#02B5DC] hover:bg-white hover:text-[#02B5DC] hover:font-bold duration-300"
+                onClick={onConnectClick}
+              >
+                Let's Discuss</button>
             </div>
             <AnimatedImage/>
          </div>

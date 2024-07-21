@@ -22,7 +22,7 @@ const Portfolio = (props) => {
                     <p className='home text-[40px] animate-pulse'>projects</p>
                     <div className='my-10 border-2 rounded-[30px] border-[#02E5DC]'>
                         <p className='home text-[30px] animate-bounce my-5'>Front-End <span className='text-[#02B5DC]'>Showcase</span></p>
-                        <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-1 xl:grid-cols-1 gap-4'>
+                        <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4'>
                         {projects.map(value=>(
 
                             <>

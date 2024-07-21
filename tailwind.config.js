@@ -28,6 +28,9 @@ export const content = [
       borderColor: {
         'custom': '#21D0B2',
       },
+      perspective: {
+        '500': '500px',
+      },
       keyframes: {
         wiggle: {
           '0%, 100%': { transform: 'rotate(-3deg)' },

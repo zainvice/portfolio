@@ -1,0 +1,31 @@
+@keyframes shine {
+    0% {
+      background-position: 200%;
+    }
+    100% {
+      background-position: -100%;
+    }
+  }
+  
+  .shining-text-big {
+    font-size: 2rem; /* Bigger font size for the top text */
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(90deg, #fff, #02B5DC, #fff);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 2s linear infinite;
+  }
+  
+  .shining-text-small {
+    font-size: 1rem; /* Smaller font size for the bottom text */
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(90deg, #fff, #02B5DC, #fff);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 2s linear infinite;
+  }
+  
