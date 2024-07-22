@@ -7,7 +7,7 @@ const Sidebar = ({ onClose, isSidebarOpen }) => {
          <div className='flex flex-col mt-20 ml-5'>
                 <a href='/' className='m-5 cursor-pointer text-gray-100 hover:text-white hover:font-bold ease-in-out duration-300'>Home</a>
                 <a href="/services" className='m-5 cursor-pointer text-gray-100 hover:text-white hover:font-bold ease-in-out duration-300'>Services</a>
-                <a href="/portfolio" className='m-5 cursor-pointer text-gray-100 hover:text-white hover:font-bold ease-in-out duration-300'>Portfolio</a>
+               {/*  <a href="/portfolio" className='m-5 cursor-pointer text-gray-100 hover:text-white hover:font-bold ease-in-out duration-300'>Portfolio</a> */}
                 <a href="/about" className='m-5 cursor-pointer text-gray-100 hover:text-white hover:font-bold ease-in-out duration-300'>About Me</a>
          </div>
          
