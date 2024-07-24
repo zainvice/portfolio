@@ -8,7 +8,7 @@ const Footer = (props) => {
                 <div className='flex lg:flex-col md:flex-col'>
                     <a className='mx-2 hover:font-bold hover:text-[#02B5DC] duration-300' href='/'>Home</a>
                     <a className='mx-2 hover:font-bold hover:text-[#02B5DC] duration-300' href='/services'>Services</a>
-                    <a className='mx-2 hover:font-bold hover:text-[#02B5DC] duration-300' href='/portfolio'>Portfolio</a>
+                   {/*  <a className='mx-2 hover:font-bold hover:text-[#02B5DC] duration-300' href='/portfolio'>Portfolio</a> */}
                     <a className='mx-2 hover:font-bold hover:text-[#02B5DC] duration-300' href='/about'>About Me</a>
                 </div>
                
